@@ -1,4 +1,3 @@
-// src/components/PageHeader.jsx
 import React from 'react';
 
 export default function PageHeader() {

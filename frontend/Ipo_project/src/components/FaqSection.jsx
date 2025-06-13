@@ -1,8 +1,6 @@
-// src/components/FaqSection.jsx
 import React from 'react';
 import FaqItem from './FaqItem';
 
-// Same data as before...
 const faqs = [
   {
     id: 1,
@@ -29,7 +27,6 @@ const faqs = [
 export default function FaqSection() {
   return (
     <section className="my-12 md:my-16">
-      {/* Smaller font size on mobile */}
       <h2 className="text-xl md:text-3xl lg:text-4xl font-medium text-text-dark">
         Frequently Asked Questions?
       </h2>
